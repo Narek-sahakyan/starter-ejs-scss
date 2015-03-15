@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+@import "bourbon";
+
+// helpers //
+@import "helpers/helper";
+
+
+
+html{
+
+}
+
+///////////
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+i{
+	// @include s($cogs); or 
+	// @include s($cogs $img);
+}
+h1,h2,h3,h4,h5 {
+	
+}
+
+h1 {
+	
+}
+
+a {
+	outline: 0 !important;
+}
+p {
+	cursor: default;
+}
+
+
+
+
+@media #{$xs} {
+}
+@media #{$sm} {
+}
+@media #{$md} {
+}
+@media #{$lg} {
+}
+
+
+// layouts //
+@import "index";
+
+
+// partials //
+@import "partials/header";
+@import "partials/footer";
+
+
+////////////////////////////////////////////////////////////////* RETINA MEDIA*/
+@media
+
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (max-width: 767px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (max-width: 767px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (max-width: 767px),
+only screen and (        min-device-pixel-ratio: 2)      and (max-width: 767px),
+only screen and (                min-resolution: 192dpi) and (max-width: 767px),
+only screen and (                min-resolution: 2dppx)  and (max-width: 767px) {
+
+}

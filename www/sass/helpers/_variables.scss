@@ -1,0 +1,29 @@
+//********************************************** Media Queries **********************************************/
+$xs: "(max-width: 767px)";
+$sm: "(min-width: 768px) and (max-width: 991px)";
+$md: "(min-width: 992px) and  (max-width: 1199px)";
+$lg: "(min-width: 1200px)";
+//********************************************** Media Queries end**********************************************/
+
+//********************************************** Mixins **********************************************/
+// border radius
+@mixin br($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+// border radius
+//********************************************** Mixins end**********************************************/
+
+//********************************************** Sass function **********************************************/
+// color map get
+@function color($key) {
+  @if map-has-key($colors, $key) {
+    @return map-get($colors, $key); 
+  } 
+  @warn "Unknown `#{$key}` in $colors.";
+  // @return null;
+}
+// color map get end 
+//********************************************** Sass function end**********************************************/
