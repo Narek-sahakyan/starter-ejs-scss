@@ -1,10 +1,5 @@
 /mat
-/build
 /node_modules
-/www/css/main.css
-www/css/main.css
 Thumbs.db
-main.css
-/build
-
 /.sass-cache/
+/build
