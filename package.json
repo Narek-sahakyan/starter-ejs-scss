@@ -1,6 +1,6 @@
 {
   "name": "Starter-EJS-scss",
-  "repository": "git@bitbucket.org:Narek_sahakyan/starter-ejs-sass.git",
+  "repository": "git@github.com:Narek-sahakyan/starter-ejs-sass.git",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-copy": "~0.5.0",
