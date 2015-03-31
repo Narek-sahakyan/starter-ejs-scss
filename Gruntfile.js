@@ -65,7 +65,8 @@ module.exports = function(grunt) {
 				dest: '<%= srcDir %>/img/spritebase.png',
 				destCss: '<%= srcDir %>/sass/helpers/_icons.scss',
 				imgPath: '../img/spritebase.png',
-				algorithm: 'top-down'
+				algorithm: 'top-down',
+				cssTemplate: '<%= srcDir %>/sass/helpers/mustacheStr.css.mustache'
 			}
 		},
 		sass: {

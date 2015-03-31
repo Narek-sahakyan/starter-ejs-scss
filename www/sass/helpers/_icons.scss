@@ -4,30 +4,20 @@
 	$calendar-offset-y: -11px;
 	$calendar-width: 16px;
 	$calendar-height: 16px;
-	$calendar-total-width: 50px;
-	$calendar-total-height: 77px;
+	$calendar-total-width: 16px;
+	$calendar-total-height: 27px;
 	$calendar-image: '../img/spritebase.png';
-	$calendar: 0px 11px 0px -11px 16px 16px 50px 77px '../img/spritebase.png';
+	$calendar: 0px 11px 0px -11px 16px 16px 16px 27px '../img/spritebase.png';
 	$cogs-x: 0px;
 	$cogs-y: 0px;
 	$cogs-offset-x: 0px;
 	$cogs-offset-y: 0px;
 	$cogs-width: 16px;
 	$cogs-height: 11px;
-	$cogs-total-width: 50px;
-	$cogs-total-height: 77px;
+	$cogs-total-width: 16px;
+	$cogs-total-height: 27px;
 	$cogs-image: '../img/spritebase.png';
-	$cogs: 0px 0px 0px 0px 16px 11px 50px 77px '../img/spritebase.png';
-	$wallet-50-x: 0px;
-	$wallet-50-y: 27px;
-	$wallet-50-offset-x: 0px;
-	$wallet-50-offset-y: -27px;
-	$wallet-50-width: 50px;
-	$wallet-50-height: 50px;
-	$wallet-50-total-width: 50px;
-	$wallet-50-total-height: 77px;
-	$wallet-50-image: '../img/spritebase.png';
-	$wallet-50: 0px 27px 0px -27px 50px 50px 50px 77px '../img/spritebase.png';
+	$cogs: 0px 0px 0px 0px 16px 11px 16px 27px '../img/spritebase.png';
 
 	@mixin sprite-width($sprite) {
 		width: nth($sprite, 5);
